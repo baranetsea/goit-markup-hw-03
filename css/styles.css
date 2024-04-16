@@ -1,0 +1,237 @@
+body {font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;}
+
+/* global */
+h2 {font-weight: 700;}
+h3 {font-weight: 500;}
+
+                                   /* header */
+/* logo */
+
+.logo-header {font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+text-decoration: none;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+}
+.logo-left-header {color: #2E2F42}
+
+/* nav.menu */
+
+.nav-menu-a{
+color: #2E2F42;
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.nav-menu-a:hover{color:#404BBF;}
+.nav-menu-a:active{color:#404BBF;}
+.nav-menu-a:focus{color:#404bbf;}
+.nav-menu-li {list-style-type: none;}
+
+/* contacts */
+
+.address {font-style: normal;}
+
+.contacts-a {color: #434455;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-decoration: none;
+font-style: normal;
+letter-spacing: 0.02em;}
+.contacts-li {list-style-type: none;}
+.contacts-a:hover {color: #404BBF;}
+.contacts-a:focus{color: #404BBF;}
+
+                                                              /* main */
+/* =============== section hero img =============== */
+
+.section-hero-img {background-color: #2E2F42;}
+
+.h-one {font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF;
+}
+.hero-button {
+color: #FFFFFF;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.hero-button:hover{background-color: #404BBF;}
+.hero-button:focus{background-color: #404BBF;}
+
+/* =============== section features =============== */
+
+.h2-hidden{visibility: hidden;}
+
+.h-three {
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.section-features-p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-features li {list-style-type: none;}
+
+/* =============== section our team =============== */
+
+.section-our-team {background-color: #F4F4FD;}
+.section-our-team-li {list-style-type: none; background-color: #FFFFFF;}
+.section-our-team-h-two{
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2E2F42;}
+
+/* card one h3+p styles from section2 */
+
+/* card two h3+p styles from section2 */
+
+/* card three h3+p styles from section2 */
+
+/* card four h3+p styles from section2 */
+
+    /* =============== section our portfolio =============== */
+
+.section-our-portfolio-h-two {
+/* font-weight: 700; */
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2E2F42;}
+
+.section-our-portfolio li {
+list-style-type: none;}
+
+/* banking app h3+p from section 2*/
+
+/* .bank-app h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+} */
+/* .bank-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+} */
+
+/* cashless p */
+
+/* .cashless-p h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .cashless-p p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+    /* meditation app */
+
+/* .meditation-app h3 {font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .meditation-app p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+    /* taxi service */
+
+/* .taxi-service h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+     */
+
+/* .taxi-service p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+/* screen ill */
+
+/* .screen-ill h3{font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .screen-ill p{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+/* online courses */
+
+/* .online-courses h3{ont-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;} */
+
+/* .online-courses p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;} */
+
+                                            /* footer */
+/* footer style */
+
+.footer {background-color: #2E2F42;}
+.footer-p {font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+color: #4D5AE5;
+}
+
+.logo-left {
+    color: #f4f4fd
+}
+
