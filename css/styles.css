@@ -34,8 +34,6 @@ padding: 0 15px;
 .header-container-two{
 display: flex;
 justify-content: space-between;
-margin-top: 24px;
-margin-bottom: 24px;
 }
 
 
@@ -48,7 +46,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4D5AE5;
 width: 115px;
-margin-right: 76px;}
+margin-right: 76px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
 .logo-left-header {color: #2E2F42}
 
 /* nav.menu */
@@ -81,6 +82,8 @@ padding-bottom: 24px;
 
 .address-menu-list {display: flex;
 gap: 40px;
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 .address {font-style: normal;
