@@ -168,14 +168,17 @@ padding-top: 60px;
 padding-bottom: 60px;}
 
 .our-taem-list {display: flex;
-gap: 24px;}
+gap: 24px;
+}
 
 .section-our-team-li { background-color: #FFFFFF;
 width: calc((100% - 72px) / 4);}
 
 .img-margin{margin-bottom: 32px;}
-.h-three-margin{margin-bottom: 8px;}
-.p-our-team-margin {margin-bottom: 32px;}
+.h-three-margin{margin-bottom: 8px;
+text-align: center;}
+.p-our-team-margin {margin-bottom: 32px;
+text-align: center;}
 
 .section-our-team-h-two{
 font-size: 36px;
