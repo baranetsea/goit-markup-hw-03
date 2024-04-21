@@ -31,9 +31,11 @@ padding: 0 15px;
 /* logo */
 
 .header-border {border-bottom: 1px solid#e7e9fc;}
-.header-container-2{
+.header-container-two{
 display: flex;
 justify-content: space-between;
+margin-top: 24px;
+margin-bottom: 24px;
 }
 
 
