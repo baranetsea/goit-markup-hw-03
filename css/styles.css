@@ -30,14 +30,15 @@ padding: 0 15px;
                                    /* header */
 /* logo */
 
-.header-border {border-bottom: 1px solid rgb(231, 233, 252);}
+.header-border {border-bottom: 1px solid#e7e9fc;}
 .header-container-2{
 display: flex;
-justify-content: center;
+justify-content: space-between;
 padding-top: 24px;
 padding-bottom: 24px;
-align-items: center;
 }
+
+
 
 .logo-header {font-family: Raleway, sans-serif;
 font-weight: 700;
@@ -46,7 +47,8 @@ text-transform: uppercase;
 line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4D5AE5;
-width: 115px;}
+width: 115px;
+margin-right: 76px;}
 .logo-left-header {color: #2E2F42}
 
 /* nav.menu */
@@ -57,6 +59,7 @@ display: flex;
 gap: 40px;    
 }
 .nav-logo{display: flex;
+align-items: center;
 gap: 76px;
 justify-content: start;
 }
@@ -99,8 +102,8 @@ letter-spacing: 0.02em;
 /* =============== section hero img =============== */
 
 .section-hero-img {background-color: #2E2F42;
-padding-top: 2px;
-padding-bottom: 60px;}
+padding-top: 188px;
+padding-bottom: 188px;}
 
 .h-one {font-weight: 700;
 font-size: 56px;
@@ -108,7 +111,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
-width: 496px;
+max-width: 496px;
 padding-top: 188px; 
 margin: 0 auto;
 }
@@ -135,16 +138,26 @@ padding: 16px 32px;
 
 /* =============== section features =============== */
 
-.h2-hidden{visibility: hidden;}
+/* .h2-hidden{visibility: hidden;} */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 
-.section-features{padding-top: 60px;
-padding-bottom: 60px;}
+.section-features{padding-top: 120px;
+padding-bottom: 120px;}
 
 .features-list-item{display: flex;
 gap: 24px;
 }
 
-.list-card {min-width: 264px;}
+.list-card {width: calc((100% - 24px * 3) / 4);}
 
 .h-three {
 font-size: 20px;
@@ -152,6 +165,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
+
+.h-three-features-margin {margin-bottom: 8px;}
 
 .section-features-p {font-weight: 400;
 font-size: 16px;
@@ -164,20 +179,23 @@ color: #434455;
 /* =============== section our team =============== */
 
 .section-our-team {background-color: #F4F4FD;
-padding-top: 60px;
-padding-bottom: 60px;}
+padding-top: 120px;
+padding-bottom: 120px;}
 
 .our-taem-list {display: flex;
 gap: 24px;
 }
 
 .section-our-team-li { background-color: #FFFFFF;
-width: calc((100% - 72px) / 4);}
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px}
 
 .img-margin{margin-bottom: 32px;}
-.h-three-margin{margin-bottom: 8px;
-text-align: center;}
-.p-our-team-margin {margin-bottom: 32px;
+.our-team-container{padding: 32px 0;}
+.h-three-our-team-margin{margin-bottom: 8px;
+text-align: center;
+}
+.p-our-team-margin {
 text-align: center;}
 
 .section-our-team-h-two{
@@ -187,7 +205,6 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
-margin-top: 120px;
 margin-bottom: 72px;}
 
 
@@ -201,8 +218,8 @@ margin-bottom: 72px;}
 
     /* =============== section our portfolio =============== */
 
-.section-our-portfolio{padding-top: 60px;
-padding-bottom: 60px;}
+.section-our-portfolio{padding-top: 120px;
+padding-bottom: 120px;}
 
 .section-our-portfolio-h-two {
 /* font-weight: 700; */
@@ -225,6 +242,8 @@ row-gap: 48px;
     border-top: none;
     padding: 32px 16px;
     }
+
+.portfolio-h-three-margin{margin-bottom: 8px;}
 
 /* banking app h3+p from section 2*/
 
@@ -314,14 +333,13 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 
-.footer-container {width: 264px;}
-
 .footer-p {font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
-margin-top: 16px;}
+margin-top: 16px;
+max-width: 264px;}
 
 /* logo */
 
@@ -333,6 +351,8 @@ margin-top: 16px;}
     line-height: 1.17;
     letter-spacing: 0.03em;
 color: #4D5AE5;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .logo-left {
