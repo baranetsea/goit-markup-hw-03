@@ -138,7 +138,6 @@ padding: 16px 32px;
 
 /* =============== section features =============== */
 
-/* .h2-hidden{visibility: hidden;} */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -148,6 +147,8 @@ padding: 16px 32px;
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
 }
 
 .section-features{padding-top: 120px;
